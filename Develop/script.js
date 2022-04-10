@@ -15,3 +15,21 @@ var confirmSpecialCharacter;
 var confirmNumericCharacter;
 var confirmUpperCase;
 var confirmLowerCase;
+
+//Start alert
+window.onload = alert("Please click 'Generate password' to start!");
+
+
+// Prompt to confirm quantity of characters
+function generatePassword() {
+  var confirmLength = (prompt("How many characters would you like your password to have?"));
+
+  // Loop if answer is outside the parameters 
+  while(confirmLength <= 8 || confirmLength >= 128) {
+      alert("Password length must be between 8-128 characters. Please try again");
+      var confirmLength = (prompt("How many characters would you like your password to have?"));
+      } 
+
+      // Confirm how many chatacters user put  
+      alert("Your password will have {confirmLength} characters");
+}

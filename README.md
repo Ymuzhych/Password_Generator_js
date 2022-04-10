@@ -8,6 +8,7 @@ A password generator is a user input program which generate password according t
 * HTML
 * CSS
 * JavaScript
+## Webpage
 ![Screenshot](/Develop/image/password_generator.jpg)
 ## Installation
 Deployed project: https://ymuzhych.github.io/password_generator_js/

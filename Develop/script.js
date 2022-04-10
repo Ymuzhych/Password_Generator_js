@@ -31,7 +31,7 @@ function generatePassword() {
       } 
 
       // Confirm how many charactersuser put 
-      alert("Your password will have {confirmLength} characters");
+      alert(`Your password will have ${confirmLength} characters`);
 
 
     // Parameters of password 
